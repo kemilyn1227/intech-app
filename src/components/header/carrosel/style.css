@@ -1,0 +1,73 @@
+.imagemCarrosel{
+    width: 57%;
+}
+
+.CaptionCarrosel{
+    text-align: justify;
+}
+
+.carrosel{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.carrosel-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 297px; /* Ajuste conforme seu slide */
+  }
+  
+.carrosel-texto {
+    flex: 1;
+    text-align: justify;
+    color: white;
+    padding-right: 2rem;
+  }
+  
+.carrosel-imagem {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+.h3Titulo{
+    color: coral;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 6px!important;
+    height: 7px !important;
+    border-radius: 50% !important; /* ← deixa redondinho */
+    background-color: rgb(90, 88, 88) !important; /* ou a cor que quiser */
+    opacity: 0.5 !important;
+    transition: all 0.3s ease !important;
+    margin: 0 6px !important;
+  }
+  
+.carousel-indicators .active {
+opacity: 1 !important;
+background-color: #ffffff !important; /* cor da bolinha ativa */
+}
+
+.carroselTop{
+  padding-top: 72px !important;
+}
+
+h3{
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+.tituloButton{
+ 
+  background: linear-gradient(to right, rgb(167, 76, 1), rgb(58, 26, 1) ) !important;
+}
+
+.btn-primary{
+  --bs-btn-border-color: #000000 !important;
+}
+  

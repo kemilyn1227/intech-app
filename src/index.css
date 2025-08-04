@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.principal{
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  color: white;
+
+  /*quando a pessoa roda a tela a proxima secao gruda no topo*/
+  /* a spat-type ativa o comportamento*/
+  scroll-snap-type: y mandatory; 
+
+  /*trasnbordar conteudo*/
+  overflow-y: scroll;
 }
+
+.novaSessao{
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+
+
+
+
+
+

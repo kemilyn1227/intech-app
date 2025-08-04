@@ -1,0 +1,21 @@
+.buttonCat{
+    border-radius: 999px;
+    background-color: rgb(182, 182, 182) !important;
+    border: none;
+    margin-right: 20px;
+
+    color: rgb(0, 0, 0);
+}
+
+.buttonActive{
+    background-color: darkorange !important;
+}
+
+
+
+
+.divPrincipal{
+    height: 300px;
+    padding-top: 72px;
+    
+}

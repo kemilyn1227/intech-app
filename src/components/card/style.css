@@ -1,0 +1,57 @@
+.cardProduct{
+
+    background-color: #111;
+    color: white !important;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    height:200px;
+    width: 143px;
+    transition: transform 0.3s ease;
+}
+
+.cardProduct:hover{
+    transform: scale(1.03);
+}
+
+.divImagem{
+    height: 48%;
+    overflow: hidden;
+    position: relative;
+
+}
+.cardImage{
+    width: 147px;
+    height: 127px;
+    
+}
+.cardBody{
+    width: 148px;
+    height: 50%;
+    padding: 7px !important;
+    
+}
+
+.tittle{
+    color: coral ;
+    width: 100%;
+}
+.text{
+    width: 100%;
+    font-size: smaller;
+}
+.promocaoCard .card-Body{
+    background-color: transparent !important ;
+    position: relative;
+    z-index: 2;
+}
+
+.promocaoCard{
+    color: rgb(255, 255, 255) !important;
+    position: relative;
+    z-index: 1;
+    border: none !important;
+    min-height: 200px;
+    background: linear-gradient(to right, rgb(167, 76, 1), rgb(58, 26, 1) ) !important;
+}
+

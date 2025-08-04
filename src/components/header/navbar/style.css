@@ -1,0 +1,23 @@
+ 
+.shadow-text{
+    text-shadow: 0px 0px 8px rgb(255, 148, 61);
+  }
+
+.hamburguer{
+  color: darkorange;
+}
+
+.navSticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+.toggle-branco .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 80'><rect width='100' height='10' fill='orange'/><rect y='30' width='100' height='10' fill='orange'/><rect y='60' width='100' height='10' fill='orange'/></svg>");
+}
+  
